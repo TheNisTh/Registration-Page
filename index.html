@@ -10,7 +10,7 @@
       <div id="nav-container">
         <nav>
           <div id="x-container">
-            <div id="x" onclick="fecharMenu()">
+            <div id="x" onclick="cadastro.fecharMenu()">
               <img src="img/botao-x.svg" alt="X" />
             </div>
           </div>
@@ -36,7 +36,7 @@
       </div>
       <main>
         <div id="botao-container">
-          <div id="botao" onclick="abrirMenu()">
+          <div id="botao" onclick="cadastro.abrirMenu()">
             <div></div>
             <div></div>
             <div></div>
@@ -44,7 +44,11 @@
         </div>
         <div class="mensagens" id="div-msg">
           <div id="div-img">
-            <img src="img/fechar.svg" alt="CLOSE" onclick="fecharMsg()" />
+            <img
+              src="img/fechar.svg"
+              alt="CLOSE"
+              onclick="cadastro.fecharMsg()"
+            />
           </div>
           <div id="textoMsg">
             <ul id="lista"></ul>
@@ -114,7 +118,7 @@
           </div>
         </form>
         <div class="centralizar">
-          <button onclick="validar()">Salvar</button>
+          <button onclick="cadastro.validar()">Salvar</button>
         </div>
       </main>
     </div>
